@@ -1,0 +1,153 @@
+/*
+* Theme Name: KANIPUNCH RESPONSIVE for MODX
+* Theme URI: http://kanipunch.com/MODX/responsive/
+* Description: A basic MODX theme based on Skeleton.
+* Version: 1.0
+* Author: KANIPUNCH
+* Author URI: www.kanipunch.com
+* License: MIT
+* License URI: http://www.opensource.org/licenses/mit-license.php
+* Copyright 2012, KANIPUNCH
+* 11/22/2012
+*/
+
+
+
+/* /////////////////////////////////////////////////////////////////////////
+
+	content.css
+	
+///////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Table of Contents
+==================================================
+	#TOP
+	#会社案内
+	#よくある質問
+	#お問い合わせ
+*/
+
+
+
+/* TOP
+================================================== */
+
+/* @end */
+
+
+
+/* 会社案内
+================================================== */
+.company #content table th  { white-space: nowrap;}
+
+
+/* @end */
+
+
+
+/* お問い合わせ
+================================================== */
+.inquiry #content .form_style01 dt  { white-space: nowrap;}
+
+
+
+/* フォーム */
+#content form {
+	width: 100%;
+}
+#content form .form_style01 dd input[type="text"] {
+	width: 100%;
+}
+#content form .form_style01 dd input[type="text"],
+#content form .form_style01 dd textarea {
+	padding: 5px;
+}
+#content form .form_style01 {
+	display: table;
+	border-collapse: collapse !important;
+}
+#content form .form_style01 dl {
+	display: table-row;
+}
+#content form .form_style01 dt {
+	display: table-cell;
+	width: 20%;
+	background-color: #E3F4D2;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 10px;
+	border: 1px solid #FFF;
+}
+#content form .form_style01 dd {
+	display: table-cell;
+	background-color: #F3F3F3;
+	padding: 5px 10px;
+	border: 1px solid #FFF;
+}
+
+/* for IE7 */
+*:first-child+html #content form .form_style01    {display: inherit !important;}
+*:first-child+html #content form .form_style01 dl {display: inherit !important; margin-bottom: 1em;}
+*:first-child+html #content form .form_style01 dt,
+*:first-child+html #content form .form_style01 dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
+
+
+#content form div.btn_submit {
+	text-align: center;
+	padding: 20px 0;
+}
+#content form div.btn_submit input[type="submit"] {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8AD042), color-stop(100%, #539619));
+	background-image: -webkit-linear-gradient(#8AD042, #539619);
+	background-image: -moz-linear-gradient(#8AD042, #539619);
+	background-image: -o-linear-gradient(#8AD042, #539619);
+	-pie-background: linear-gradient(#8AD042, #539619);
+	/*border: 1px solid #3b639b;*/
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: inset 0 0 1px 0 #7d99bf;
+	-webkit-box-shadow: inset 0 0 1px 0 #7d99bf;
+	-o-box-shadow: inset 0 0 1px 0 #7d99bf;
+	box-shadow: inset 0 0 1px 0 #7d99bf;
+	font-size: 1.1rem;
+	color: #FFF;
+	display: inline-block;
+	font-stretch: narrower;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFF;
+	padding: 14px 5em 14px 5em;
+	position: relative;
+	behavior: url("/wp-content/themes/kanipunch/PIE.php");
+}
+#content form div.btn_submit input[type="submit"]:hover {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #539619), color-stop(100%, #8AD042));
+	background-image: -webkit-linear-gradient(#539619, #8AD042);
+	background-image: -moz-linear-gradient(#539619, #8AD042);
+	background-image: -o-linear-gradient(#539619, #8AD042);
+	-pie-background: linear-gradient(#539619, #8AD042);
+	-moz-box-shadow: inset 0 0 1px 0 #728cb1;
+	-webkit-box-shadow: inset 0 0 1px 0 #728cb1;
+	-o-box-shadow: inset 0 0 1px 0 #728cb1;
+	box-shadow: inset 0 0 1px 0 #728cb1;
+	cursor: pointer;
+}
+/* @end */
+
+
+
+
+
+
+
+
+
+
+
